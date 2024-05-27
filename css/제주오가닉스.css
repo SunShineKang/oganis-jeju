@@ -43,6 +43,7 @@ a {
 body {
     line-height: 1;
     color: #333;
+    background-color: #f8efe4;
 }
 .main {
     width: 1920px;
@@ -151,8 +152,10 @@ body {
 }
 .section01 p {
     font-size: 14px;
-    color: rgb(247, 5, 5);
     margin-top: 150px;
+    color: rgb(245, 8, 8);
+    font-weight: 800;
+    text-decoration: underline;
 }
 .section01 h1 {
     font-size: 48px;
@@ -160,13 +163,13 @@ body {
     font-family: 'Pretendard-Regular';
     margin-top: 10px;
     font-weight: 600;
-    
+    text-decoration: underline;
     color: #333;
     
 }
 .section01 .item01 {
     width: 100%;
-    margin: 0 auto;
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -179,6 +182,8 @@ body {
     margin-bottom: 20px;
     overflow: hidden;
     border-radius: 20%;
+    border: 3px solid #b9e7fc;
+    
 }
 .section01 .item01 div img {
     width: 100%;
@@ -207,35 +212,41 @@ body {
     width: 1200px;
     margin: 0 auto;
     
+    
     }
 .section03 p {
     font-size: 14px;
     margin-top: 150px;
     color: rgb(245, 8, 8);
+    font-weight: 800;
+    text-decoration: underline;
 }
 .section03 h1 {
+    width: 1200px;
     font-size: 48px;
     
     font-family: 'Pretendard-Regular';
-    
+    text-decoration: underline;
     font-weight: 600;
     
 }
 .section03 .cont03 {
     width: 1200px;
-    height: 585px;
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 40px;
+    gap: 20px;
     
     
 }
 .section03 .cont03 .item03 {
     width: 590px;
-    height: 280px;
+    
     display: flex;
     justify-content: space-between;
+    
     overflow: hidden;
     border-radius: 50px;
     
@@ -244,16 +255,18 @@ body {
 .section03 .cont03 .item03 .image03 {
     width: 280px;
     height: 280px;
-    
+    border: 3px solid #b9e7fc;
+    border-radius: 50px;
+    overflow: hidden;
 
     
 
 }
 .section03 .cont03 .item03 .image03 img {
-    width: 280px;
-    height: 280px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    border-radius: 50px;
+    
     transition: 3s;
 }
 .section03 .cont03 .item03 .text03 {
@@ -265,17 +278,28 @@ body {
     font-size: 20px;
     margin-top: 20px;
     margin-bottom: 30px;
-    font-weight: 300;
+    font-weight: 700;
     line-height: 1.2;
+    font-family: 'Pretendard-Regular';
 }
 .section03 .cont03 .item03 .text03 strong {
     font-size: 24px;
     font-family: 'Pretendard-Regular';
-   
+    color: rgb(245, 8, 8);
+    text-decoration: line-through;
+    
 }
 .section03 .item03 div:hover img {
     transform: scale(1.1);
 }
+.section03 .cont03 .item03 .text03 h2 {
+    font-size: 24px;
+    line-height: -100px;
+    text-decoration: underline;
+    font-family: 'Pretendard-Regular';
+    margin-top: 3px;
+}
+
 .section04 {
     width: 1200px;
     
@@ -283,17 +307,18 @@ body {
     
 }
 .section04 p {
-    width: 100%;
+    font-size: 14px;
     margin-top: 150px;
     color: rgb(245, 8, 8);
-    font-size: 14px;
+    font-weight: 800;
+    text-decoration: underline;
 
 }
 .section04 h1 {
     font-size: 48px;
     margin-bottom: 50px;
     font-family: 'Pretendard-Regular';
-    
+    text-decoration: underline;
     font-weight: 600;
     color:#333;
 }
@@ -319,6 +344,7 @@ body {
     height: 280px;
     overflow: hidden;
     border-radius: 10%;
+    border: 3px solid #b9e7fc;
 
 }
 .section04 .cont04 .item04 .image04 img {
@@ -342,6 +368,15 @@ body {
 .section04 .cont04 .item04 .text04 strong {
     font-size: 24px;
     font-family: 'Pretendard-Regular';
+    color: rgb(245, 8, 8);
+    text-decoration: line-through;
+}
+.section04 .cont04 .item04 .text04 h2{
+    margin-top: 3px;
+    text-decoration: underline;
+    font-family: 'Pretendard-Regular';
+    font-size: 24px;
+    
 }
 .section04 .cont04 .item04:hover .image04 img {
     transform: scale(1.1);
@@ -353,12 +388,19 @@ body {
     
     
 }
+.section05 p {
+    color: rgb(245, 8, 8);
+    font-family: 'Pretendard-Regular';
+    font-weight: 800;
+    text-decoration: underline;
+
+}
 .section05 h1 {
     font-size: 48px;
-    text-align: center;
+    
     margin-bottom: 60px;
     font-family: 'Pretendard-Regular';
-    color: rgb(245, 8, 8);
+    text-decoration: underline;
     font-weight: 400;
     
 }
